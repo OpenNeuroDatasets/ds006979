@@ -71,7 +71,7 @@ The data is structured following the Brain Imaging Data Structure (BIDS) standar
 
 - **Acquisition Parameters:** Detailed recording specifications are provided in the task-level BIDS JSON file (`task-visualworkingmemorytask_eeg.json`) and in each participant's `*_eeg.json` and `*_channels.tsv`.
 - **Methodology:** Comprehensive details on offline preprocessing (e.g., re-referencing to average mastoids, ICA artifact removal, 0.1 Hz high-pass filtering) and the precise analysis plan (e.g., ERP measurement windows, HEOG artifact thresholds, channel clusters) are provided in the Stage 1 protocol on OSF (https://doi.org/10.17605/OSF.IO/8ZS96).
-- **Participants:** `participants.tsv` indicates, for each participant, the analyses in which the data were included, and the reason for exclusion from the stimulus-locked ERP analyses (residual horizontal eye movements, HEOG).
+- **Participants:** `participants.tsv` gives self-reported demographics (age, gender, handedness, years of education, ethnicity), the response-key version, and, for each participant, the analyses in which the data were included, and the reason for exclusion from the stimulus-locked ERP analyses (residual horizontal eye movements, HEOG).
 
 ## 5. Event Codes/Triggers
 
