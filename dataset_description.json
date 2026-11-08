@@ -16,7 +16,7 @@
   "TaskName": "visualworkingmemorytask",
   "TaskDescription": "Bilateral change-detection task investigating the influence of color grouping on stages of processing in visual working memory.",
   "ReferencesAndLinks": [
-    "Ramzaoui, H., & Beck, M. (2024). Examining perceptual grouping on stages of processing in visual working memory: An ERP study. Scientific Reports. (Registered Report Stage I): https://doi.org/10.17605/OSF.IO/RZS96",
+    "Ramzaoui, H., & Beck, M. (2024). Examining perceptual grouping on stages of processing in visual working memory: An ERP study. Scientific Reports. (Registered Report Stage I): https://doi.org/10.17605/OSF.IO/8ZS96",
     "Independent Julia reimplementation of the analysis pipeline, validated against the derivatives of this dataset: https://github.com/HananeRam/vwm-erp-julia"
   ],
   "GeneratedBy": [
