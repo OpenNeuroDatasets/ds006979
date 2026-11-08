@@ -4,8 +4,8 @@ data:
       resourceTypeGeneral: Dataset
     contributors:
       - name: Hanane Ramzaoui
-        givenName: ''
-        familyName: ''
+        givenName: Hanane
+        familyName: Ramzaoui
         nameType: Personal
         nameIdentifiers: &ref_0
           - nameIdentifier: https://orcid.org/0000-0001-7663-7663
@@ -14,8 +14,8 @@ data:
         contributorType: Researcher
         order: 1
       - name: Melissa Beck
-        givenName: ''
-        familyName: ''
+        givenName: Melissa
+        familyName: Beck
         nameType: Personal
         nameIdentifiers: &ref_1
           - nameIdentifier: https://orcid.org/0000-0002-9489-7124
@@ -25,11 +25,24 @@ data:
         order: 2
     creators:
       - name: Hanane Ramzaoui
+        givenName: Hanane
+        familyName: Ramzaoui
         nameType: Personal
         nameIdentifiers: *ref_0
       - name: Melissa Beck
+        givenName: Melissa
+        familyName: Beck
         nameType: Personal
         nameIdentifiers: *ref_1
     descriptions:
-      - description: N/A
+      - description: >-
+          EEG (BioSemi ActiveTwo, 64 scalp channels, 512 Hz) and behavioral data
+          from 53 adults performing a bilateral change-detection task that
+          manipulated perceptual grouping by color repetition (2-UR, 3-UR,
+          3-RWP, 3-RSP). The dataset supports a Registered Report (Stage 1
+          protocol: https://doi.org/10.17605/OSF.IO/8ZS96) measuring the
+          stimulus-locked N2pc and CDA and the probe-locked N2pc, N2 and FN400
+          to index VWM individuation during encoding, maintenance, and
+          comparison stages. Derivatives include the original ICA weights,
+          MATLAB (EEGLAB/ERPLAB) and R analysis code, and intermediate ERP files.
         descriptionType: Abstract
