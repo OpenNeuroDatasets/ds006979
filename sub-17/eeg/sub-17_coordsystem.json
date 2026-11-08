@@ -1,4 +1,5 @@
 {
-  "EEGCoordinateSystem": "CapTrak", 
-  "EEGCoordinateUnits": "mm"
+  "EEGCoordinateSystem": "EEGLAB",
+  "EEGCoordinateUnits": "mm",
+  "EEGCoordinateSystemDescription": "Template electrode positions (EEGLAB standard BioSemi 64-channel layout on an 85 mm radius sphere; x = anterior, y = left, z = superior). Positions were not digitized for individual participants."
 }
