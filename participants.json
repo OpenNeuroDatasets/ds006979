@@ -1,37 +1,33 @@
 {
-  "age": {
-    "Description": "Age of the participant at the time of testing.",
-    "Units": "years"
+  "participant_id": {
+    "Description": "Unique participant identifier. The 53 participants of this dataset are those retained after the exclusion criteria applied to all analyses (accuracy, data integrity, bad electrodes of interest, artifact rejection); participants excluded on these criteria are not included in the dataset."
   },
-  "sex": {
-    "Description": "Sex of the participant.",
+  "included_behavioral": {
+    "Description": "Participant included in the behavioral analyses (accuracy, d').",
     "Levels": {
-      "M": "Male",
-      "F": "Female",
-      "O": "Other"
+      "yes": "Included",
+      "no": "Excluded"
     }
   },
-  "handedness": {
-    "Description": "Dominant hand of the participant.",
+  "included_probe_locked_erp": {
+    "Description": "Participant included in the probe-locked ERP analyses (N2pc, N2, FN400).",
     "Levels": {
-      "right": "Right-handed",
-      "left": "Left-handed",
-      "ambidextrous": "Ambidextrous"
+      "yes": "Included",
+      "no": "Excluded"
     }
   },
-  "ethnicity": {
-    "Description": "Self-identified ethnicity of the participant.",
-    "LongName": "Self-identified ethnicity group"
-  },
-  "education_years": {
-    "Description": "Number of years of formal education completed.",
-    "Units": "years"
-  },
-  "final_sample_stimulus_locked": {
-    "Description": "Inclusion status for the final sample used in the stimulus-locked ERP analyses (N2pc and CDA). N=39 were included.",
+  "included_stimulus_locked_erp": {
+    "Description": "Participant included in the stimulus-locked ERP analyses (N2pc, CDA, negative slow wave, alpha power).",
     "Levels": {
-      "included": "Participant's data was included in the final N=39 sample for stimulus-locked ERP analysis.",
-      "excluded": "Participant's data was excluded due to excessive artifacts or other quality issues."
+      "yes": "Included",
+      "no": "Excluded"
+    }
+  },
+  "exclusion_stimulus_locked_erp": {
+    "Description": "Reason for exclusion from the stimulus-locked ERP analyses.",
+    "Levels": {
+      "HEOG": "Residual horizontal eye movements: difference greater than 3.2 µV in the corrected HEOG channel (criterion applied to stimulus-locked ERPs only)",
+      "n/a": "Not excluded"
     }
   }
 }
