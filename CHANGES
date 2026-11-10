@@ -1,3 +1,5 @@
+1.1.2 2026-11-10
+  - sub-46, sub-47 and sub-64: EEG data files replaced by the continuous recordings used in the analysis (Script #0 output), which differed slightly from the files of earlier versions. Events unchanged.
 1.1.1 2026-11-10
   - Complete EEG data files of sub-10 and sub-49 (the upload of version 1.1.0 was incomplete). sub-04 replaced by the continuous recording used in the analysis (Script #0 output: 69 channels, 512 Hz, practice trials removed), with complete events, as for sub-10 and sub-49 in version 1.1.0.
 1.1.0 2026-11-08
