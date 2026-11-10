@@ -63,11 +63,8 @@ P10	EEG	uV	512
 PO8	EEG	uV	512
 PO4	EEG	uV	512
 O2	EEG	uV	512
-EXG1	OTHER	unknown	512
 VEOG-lower	EOG	unknown	512
 HEOG-left	EOG	unknown	512
 HEOG-right	EOG	unknown	512
 Mastoid-left	OTHER	unknown	512
 Mastoid-right	OTHER	unknown	512
-EXG7	OTHER	unknown	512
-EXG8	OTHER	unknown	512
