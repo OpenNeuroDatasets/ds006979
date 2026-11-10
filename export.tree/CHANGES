@@ -1,0 +1,10 @@
+1.1.2 2026-11-10
+  - sub-46, sub-47 and sub-64: EEG data files replaced by the continuous recordings used in the analysis (Script #0 output), which differed slightly from the files of earlier versions. Events unchanged.
+1.1.1 2026-11-10
+  - Complete EEG data files of sub-10 and sub-49 (the upload of version 1.1.0 was incomplete). sub-04 replaced by the continuous recording used in the analysis (Script #0 output: 69 channels, 512 Hz, practice trials removed), with complete events, as for sub-10 and sub-49 in version 1.1.0.
+1.1.0 2026-11-08
+  - - Corrected the recordings and events of sub-10 and sub-49 (now the 512 Hz continuous recordings used in the analysis); sub-49 channels.tsv updated to 512 Hz - Corrected the event-code labels in README and task-visualworkingmemorytask_events.json (51–58 = memory array onset; 11–42 = probe onset); the codes in the data files are unchanged - Replaced derivatives/ReplicationPeterson2015 with the corrected analysis (correct-response trials only for the stimulus-locked ERPs), including ICA weights, MATLAB and R code, ERP files and documentation - participants.tsv: added demographics, response-key version and inclusion in each analysis - Corrected task-visualworkingmemorytask_eeg.json (hardware filter, reference, channel counts) and coordsystem.json (EEGLAB template positions) for all participants - Updated README, dataset_description.json (OSF link 8ZS96) and datacite.yml - Removed the rest/test files of sub-01
+1.0.1 2026-03-05
+  - Added derivatives (Preprocessed data and pipeline)
+1.0.0 2026-01-21
+  - V1
