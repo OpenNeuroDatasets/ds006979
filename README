@@ -120,21 +120,15 @@ Acronym Key: UR = Unrepeated; RWP = Repeated Weak Proximity; RSP = Repeated Stro
 
 ## 6. Derivatives
 
-`derivatives/ReplicationPeterson2015/` contains the analysis code and intermediate files of the corrected analysis (correct-response trials only, as specified in the Stage 1 protocol), including the original ICA weights for each participant, the MATLAB (EEGLAB/ERPLAB) scripts and bin descriptors, the intermediate ERP files, and the R scripts and data used for the statistical analyses. See the README in that folder for details.
+`ds006979_derivatives/derivatives/ReplicationPeterson2015/` contains the analysis code and intermediate files of the analysis (correct-response trials only, as specified in the Stage 1 protocol), including the ICA weights for each participant, the MATLAB (EEGLAB/ERPLAB) scripts and bin descriptors, the intermediate ERP files, and the R scripts and data used for the statistical analyses. See the README in that folder for details.
 
 Independent Julia reimplementations of the pipeline, validated against these derivatives, are available for the stimulus-locked analyses (https://github.com/HananeRam/vwm-erp-julia) and the probe-locked analyses (https://github.com/HananeRam/vwm-erp-julia-probe).
 
-## 7. Notes on Specific Files
-
-- **sub-10 and sub-49:** in versions 1.0.0 and 1.0.1, the files of these two participants were not the recordings used in the analysis (incomplete events; sub-49 stored at 2048 Hz). Since version 1.1.0, they contain the continuous recordings used as input of the analysis (512 Hz, practice trials removed), with matching events.
-
-See `CHANGES` for the full version history.
-
-## 8. Protocol Registration and Reference
+## 7. Protocol Registration and Reference
 
 For this dataset project, the approved Stage 1 protocol (registered report) can be found at this OSF link (2024, October 15): https://doi.org/10.17605/OSF.IO/8ZS96
 
-## 9. Contact and Ethics
+## 8. Contact and Ethics
 
 - **Affiliation (data collection):** Louisiana State University
 - **Ethical Approval:** Institutional Review Board of Louisiana State University (IRBAM-23-0273 from March 1, 2023)
